@@ -45,7 +45,6 @@ img {
 }
 
 /*********common css ends*****/
-
 /************* first_nav end **************/
 #first_nav {
     background: #f6f6f8;
@@ -142,7 +141,18 @@ img {
 
 /************* navbar ends **************/
 
-
+body{
+    position: relative;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2a363f;
+    z-index: 999;
+    line-height: 70px;
+}
 /************* banner part start **************/
 
 #banner_part {
@@ -1121,6 +1131,7 @@ img {
 
 #futter .futter_link ul li a:hover {
     color: #fff;
+    padding-left: 10px;
 }
 #copyright .copyright{
     height: 50px;
@@ -1130,12 +1141,35 @@ img {
     color: #8b969e;
     padding-top: 10px;
 }
+.top{
+    height: 40px;
+    width: 40px;
+    background: #6681f2;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    border-radius: 50%;
+    border: 2px solid #6681f2;
+    transition: all linear .3s;
+    
+}
+.top:hover i{
+    background: transparent;
+    color: #6681f2;
+}
+
+.top:hover{
+    background: transparent;
+}
+.top i{
+    color: #fff;
+    padding-left: 35%;
+    line-height: 40px;
+    font-size: 20px;
+    transition: all linear .3s;
+}
 /************* futter Ends **************/
-/************* about_banner start **************/
-
-
-
-
+/************* inner_firt_nav start **************/
 #inner_first_nav {
     background: #2a363f;
 }
@@ -1176,7 +1210,8 @@ img {
 #inner_first_nav ul li i:hover {
     color: #f1f1f1;
 }
-
+/************* inner_firt_nav ends **************/
+/************* inner_navbar ends **************/
 
 .inner.navbar {
     top: 65px;
@@ -1225,7 +1260,8 @@ img {
     background: none;
     border: 2px solid #6681f2;
 }
-
+/************* inner_navbar  ends **************/
+/************* inner_banner start **************/
 #inner_banner_part {
     background: url(../images/service-bg.jpg) no-repeat;
     background-position: center;
@@ -1252,14 +1288,14 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    padding-top: 8%;
+    padding-top: 70px;
 }
 #inner_banner_part a{
     color: #fff;
 }
 #inner_banner_part .text{
-    height: 150px;
-    width: 500px;
+    height: 200px;
+    width: 600px;
     background: rgba(102, 129, 242, 0.5);
     display: block;
     margin-top: 100px;
@@ -1274,6 +1310,8 @@ img {
 #inner_banner_part .text .a:hover{
     color: #fff;
 }
+/************* inner_banner ends **************/
+/************* inner_poertfolio start **************/
 .po_img{
     height: 350px;
     width: 350px;
@@ -1308,10 +1346,11 @@ img {
     line-height: 50px;
     padding-left: 20px;
 }
-
+/************* inner_portfolio ends **************/
+/************* inner_blog start **************/
 
 .blog_img img{
-    height: 100%;
+    height: 350px;
     width: 100%;
     padding-bottom: 50px;
 }
@@ -1322,7 +1361,6 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     padding-right: 100px;
-    padding-top: 40px;
     padding-bottom: 20px;
 }
 
@@ -1340,6 +1378,4 @@ img {
     color: #666;
 }
 
-
-
-/************* about_banner ends **************/
+/************* inner_blog ends **************/
