@@ -1,0 +1,21 @@
+font-family: 'Roboto', sans-serif;
+
+
+
+
+#6681f2
+
+
+
+
+<i class="fas fa-quote-right"></i>
+
+
+
+
+
+
+
+
+
+<h4>LATEST POST <span>Latest blog</span></h4>
