@@ -22,6 +22,17 @@ $(window).scroll(function () {
 });
 
 
+$(window).scroll(function () {
+    var scroll = $(this).scrollTop();
+    if (scroll > 500) {
+        $(".top").show();
+    } else {
+        $(".top").hide();
+    }
+});
+
+
+
 
 $('.portfolio_img').slick({
     slidesToShow: 3,
