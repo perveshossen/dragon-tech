@@ -1,3 +1,6 @@
+/*========================================
+               larg_device css start
+ ========================================*/
 @media(min-width: 992px) and (max-width: 1199px) {
     .heading h4 {
         font-size: 12px;
@@ -11,7 +14,6 @@
     .heading h2 span {
         font-size: 30px;
     }
-
 
     #first_nav h3 {
         padding-right: 15px;
@@ -370,10 +372,58 @@
         margin-top: 95px;
     }
 
+    .demo.navbar .get {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    #demos_banner_part {
+        padding-top: 440px;
+    }
+
+    #demos_banner_part .img {
+        left: -33px;
+    }
+
+    #demos_banner_part .img img {
+        height: 240px;
+    }
+
+    #unique .unique_item {
+        height: 350px;
+        width: 300px;
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+        margin-top: 60px;
+        border-radius: 10px;
+    }
+
+    #unique .unique_item img {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    #unique .unique_text {
+        right: -30px;
+    }
+
+    #tools .tools_items {
+        height: 120px;
+        width: 460px;
+    }
+
+    #tools .tools_title {
+        padding-left: 25px;
+    }
 }
 
+/*========================================
+               larg_device css ends
+ ========================================*/
 
-/*====== Medium device =========*/
+/*========================================
+               medium_device css start
+ ========================================*/
 
 @media(min-width: 768px) and (max-width: 991px) {
 
@@ -704,8 +754,93 @@
         text-align: center;
     }
 
+    #demos_banner_part .img {
+        top: 280px;
+    }
+
+    #demos_banner_part .img img {
+        height: 220px;
+    }
+
+    #unique {
+        padding: 40px 0;
+    }
+
+    #unique .unique_head h2 {
+        font-size: 28px;
+    }
+
+    #unique .unique_item {
+        height: 250px;
+        width: 220px;
+        border-radius: 7px;
+        margin-top: 50px;
+    }
+
+    #unique .unique_item img {
+        border-radius: 7px;
+        height: 100%;
+        width: 100%;
+    }
+
+    #unique .unique_text .deg {
+        font-size: 35px;
+    }
+
+    #unique .unique_text {
+        top: 150px;
+        right: -15px;
+    }
+
+    #unique .unique_item .overlay a i {
+        height: 60px;
+        width: 60px;
+        line-height: 53px;
+        font-size: 18px;
+        border: 4px solid #fff;
+    }
+
+    #unique .unique_item .overlay a:hover i {
+        border: 4px solid #6681f2;
+    }
+    #tools .tools_items {
+        margin-top: 60px;
+        height: 115px;
+        width: 340px;
+    }
+
+    #tools .tools_img {
+        height: 100%;
+    }
+
+    #tools .tools_img img {
+        height: 100%;
+    }
+
+    #tools .tools_title {
+        line-height: 115px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    #support .get_support p {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    #demo_copyright .copyright p {
+        padding-top: 23px;
+        line-height: 30px;
+    }
+
 }
 
+/*========================================
+               medium_device css ends
+ ========================================*/
+/*========================================
+               small_device css start
+ ========================================*/
 
 @media(min-width: 576px) and (max-width: 767px) {
 
@@ -1139,10 +1274,65 @@
         font-family: 'Roboto', sans-serif;
     }
 
+    #demos_banner_part {
+        padding-top: 350px;
+    }
+
+    #demos_banner_part .img {
+        top: 200px;
+        left: -25px;
+    }
+
+    #demos_banner_part .img img {
+        height: 150px;
+    }
+
+    #unique {
+        padding: 40px 0;
+    }
+
+    #unique .unique_head h2 {
+        font-size: 28px;
+    }
+
+    #unique .unique_item {
+        height: 385px;
+        width: 340px;
+        border-radius: 7px;
+        margin-top: 50px;
+    }
+
+    #unique .unique_item img {
+        border-radius: 7px;
+        height: 100%;
+        width: 100%;
+    }
+
+    #unique .unique_text .deg {
+        font-size: 45px;
+    }
+
+    #unique .unique_text {
+        top: 210px;
+        right: 0;
+    }
+
+    #support .get_support p {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    #demo_copyright .copyright p {
+        padding-top: 25px;
+    }
 }
 
-
-/*====== Xtra samll device=======*/
+/*========================================
+               small_device css ends
+ ========================================*/
+/*========================================
+        extra_small_device css start
+ ========================================*/
 
 @media (max-width: 575.98px) {
     .top {
@@ -1664,5 +1854,90 @@
         font-size: 12px;
     }
 
+    #demos_banner_part {
+        padding-top: 250px;
+    }
+
+    #demos_banner_part .img img {
+        height: 94px;
+    }
+
+    #demos_banner_part .img {
+        top: 156px;
+        left: -22px;
+    }
+
+    #unique {
+        padding: 30px 0;
+    }
+
+    #unique .unique_head h2 {
+        font-size: 22px;
+    }
+
+    #unique .unique_item {
+        height: 215px;
+        width: 190px;
+        border-radius: 5px;
+        margin-top: 40px;
+    }
+
+    #unique .unique_item img {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #unique .unique_text .deg {
+        font-size: 30px;
+    }
+
+    #unique .unique_text {
+        top: 120px;
+        right: 0;
+    }
+
+    #unique .unique_item .overlay a i {
+        height: 50px;
+        width: 50px;
+        line-height: 43px;
+        font-size: 16px;
+        border: 3px solid #fff;
+    }
+
+    #unique .unique_item .overlay a:hover i {
+        border: 3px solid #6681f2;
+    }
+
+    #tools .tools_items {
+        margin-top: 30px;
+        height: 100px;
+        width: 295px;
+    }
+
+    #tools .tools_items .tools_img img {
+        height: 100px;
+    }
+
+    #tools .tools_title {
+        line-height: 100px;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    #support .get_support p {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    #demo_copyright .copyright p {
+        padding-top: 0;
+        line-height: 40px;
+    }
 
 }
+
+/*========================================
+        extra_small_device css ends
+ ========================================*/

@@ -1,3 +1,6 @@
+/*========================================
+               common css start
+ ========================================*/
 * {
     margin: 0px;
     padding: 0px;
@@ -49,9 +52,13 @@ body {
     scroll-behavior: smooth;
 }
 
-/*********common css ends*****/
+/*========================================
+               common css ends
+ ========================================*/
 
-/************* first_nav end **************/
+/*========================================
+               first_nav css start
+ ========================================*/
 #first_nav {
     background: #f6f6f8;
 }
@@ -96,11 +103,15 @@ body {
     color: #3b57c9;
 }
 
-/************* first_nav end **************/
+/*========================================
+               first_nav css ends
+ ========================================*/
 
 
 
-/************* navbar start **************/
+/*========================================
+               navbar css start
+ ========================================*/
 .navbar {
     position: absolute;
     top: 65px;
@@ -167,11 +178,14 @@ body {
     z-index: 999;
     line-height: 60px;
     transition: all linear .3s;
-    z-index: 9999;
 }
 
-/************* navbar ends **************/
-/************* banner part start **************/
+/*========================================
+               navbar css ends
+ ========================================*/
+/*========================================
+               banner_part css start
+ ========================================*/
 
 #banner_part {
     background: url(../images/banner.jpg) no-repeat;
@@ -263,8 +277,12 @@ body {
     padding-top: 10px;
 }
 
-/************* banner part ends **************/
-
+/*========================================
+               banner_part css ends
+ ========================================*/
+/*========================================
+               about css start
+ ========================================*/
 
 #about {
     background: #f9f9f9;
@@ -329,10 +347,14 @@ body {
     color: #6681f2;
 }
 
-/************* about ends **************/
+/*========================================
+               about css ends
+ ========================================*/
 
 
-/************* service start **************/
+/*========================================
+               service  css start
+ ========================================*/
 
 #service {
     background: #fff;
@@ -379,12 +401,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*========================================
+               service css ends
+ ========================================*/
 
 
-/************* service ends **************/
-
-
-/************* choose Start **************/
+/*========================================
+               choose css start
+ ========================================*/
 
 #choose {
     background: #f9f9f9;
@@ -470,9 +494,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/************* choose Ends **************/
+/*========================================
+               choose css ends
+ ========================================*/
 
-/************* client start **************/
+/*========================================
+               client css start
+ ========================================*/
 #client {
     background: #fff;
     padding-top: 60px;
@@ -583,10 +611,14 @@ body {
     color: #fff;
 }
 
-/************* client Ends **************/
+/*========================================
+               client css ends
+ ========================================*/
 
 
-/************* team_part start **************/
+/*========================================
+               team_part css start
+ ========================================*/
 
 #team_part {
     background: #f9f9f9;
@@ -672,9 +704,13 @@ body {
     color: #fff;
 }
 
-/************* team_part Ends **************/
+/*========================================
+               team_part css ends
+ ========================================*/
 
-/************* counter start **************/
+/*========================================
+               counter css start
+ ========================================*/
 #counter {
     background: url(../images/counter_bg.jpg);
     background-repeat: no-repeat;
@@ -685,7 +721,8 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#counter:after{
+
+#counter:after {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -694,17 +731,18 @@ body {
     background: rgba(0, 0, 0, 0.9);
     content: '';
 }
-.cont{
+
+.cont {
     z-index: 999;
     position: relative;
 }
 
 .count {
-	height: 150px;
-	background: rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
-	transition: all linear .3s;
-	cursor: pointer;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: all linear .3s;
+    cursor: pointer;
 }
 
 
@@ -726,10 +764,14 @@ body {
     font-weight: 600;
 }
 
-/************* counter Ends **************/
+/*========================================
+               counter css ends
+ ========================================*/
 
 
-/************* portfolio start **************/
+/*========================================
+               portfolio css start
+ ========================================*/
 #portfolio {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -767,25 +809,32 @@ body {
 #portfolio .portfolio_img {
     margin-top: 70px;
 }
-#portfolio .portfolio_img img{
+
+#portfolio .portfolio_img img {
     height: 400px;
     width: 350px;
 }
-[class*=" imghvr-"], [class^="imghvr-"] {
-	background-color: #6681f2;
+
+[class*=" imghvr-"],
+[class^="imghvr-"] {
+    background-color: #6681f2;
 }
-[class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
-	background-color: #6681f2;
+
+[class*=" imghvr-"] figcaption,
+[class^="imghvr-"] figcaption {
+    background-color: #6681f2;
 }
-.slide_img h3{
+
+.slide_img h3 {
     color: #ffffff;
     font-weight: 600;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     text-align: center;
-    padding-top:  150px;
+    padding-top: 150px;
 }
+
 #portfolio .right_arrow {
     color: #6681f2;
     position: absolute;
@@ -823,10 +872,14 @@ body {
     color: #fff;
 }
 
-/************* portfolio Ends **************/
+/*========================================
+               portfolio css ends
+ ========================================*/
 
 
-/************* blog_part start **************/
+/*========================================
+               blog_part css start
+ ========================================*/
 #blog_part {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -955,10 +1008,14 @@ body {
     color: #6681f2;
 }
 
-/************* blog_part Ends **************/
+/*========================================
+               blog_part css ends
+ ========================================*/
 
 
-/************* futter start **************/
+/*========================================
+               from_part css start
+ ========================================*/
 #from_part {
     padding-bottom: 30px;
     background: #f9f9f9;
@@ -1072,10 +1129,14 @@ body {
     background: transparent;
 }
 
-/************* from_part Ends **************/
+/*========================================
+               from_part css ends
+ ========================================*/
 
 
-/************* futter start **************/
+/*========================================
+               futter css start
+ ========================================*/
 
 #futter {
     background: #2a363f;
@@ -1148,9 +1209,18 @@ body {
     padding-left: 10px;
 }
 
+/*========================================
+               futter css ends
+ ========================================*/
+/*========================================
+               copyright css start
+ ========================================*/
+#copyright {
+    background: #242f37;
+}
+
 #copyright .copyright {
     height: 50px;
-    background: #242f37;
 }
 
 #copyright .copyright p {
@@ -1158,6 +1228,12 @@ body {
     padding-top: 10px;
 }
 
+/*========================================
+               copyright css ends
+========================================*/
+/*========================================
+               dote css start
+ ========================================*/
 .dote {
     height: 40px;
     width: 40px;
@@ -1188,8 +1264,12 @@ body {
     transition: all linear .3s;
 }
 
-/************* futter Ends **************/
-/************* inner_firt_nav start **************/
+/*========================================
+               dote css ends
+ ========================================*/
+/*========================================
+               inner_first_nav css start
+ ========================================*/
 #inner_first_nav {
     background: #2a363f;
 }
@@ -1235,8 +1315,12 @@ body {
     color: #f1f1f1;
 }
 
-/************* inner_firt_nav ends **************/
-/************* inner_navbar ends **************/
+/*========================================
+               inner_first_nav css ends
+ ========================================*/
+/*========================================
+               inner/navbar css start
+ ========================================*/
 
 .inner.navbar {
     top: 65px;
@@ -1286,8 +1370,12 @@ body {
     border: 2px solid #6681f2;
 }
 
-/************* inner_navbar  ends **************/
-/************* inner_banner start **************/
+/*========================================
+               inner/navbar css ends
+ ========================================*/
+/*========================================
+               inner_banner_part css start
+ ========================================*/
 #inner_banner_part {
     background: url(../images/service-bg.jpg) no-repeat;
     background-position: center;
@@ -1336,8 +1424,12 @@ body {
     color: #fff;
 }
 
-/************* inner_banner ends **************/
-/************* inner_poertfolio start **************/
+/*========================================
+               inner_banner_part css ends
+ ========================================*/
+/*========================================
+               portfolio_in css start
+ ========================================*/
 #portfolio_in {
     background: #f9f9f9;
     padding: 60px 0;
@@ -1387,14 +1479,19 @@ body {
     padding-left: 20px;
 }
 
-/************* inner_portfolio ends **************/
-/************* inner_blog start **************/
+/*========================================
+               portfolio_in css ends
+ ========================================*/
+/*========================================
+               in_blog_de css start
+ ========================================*/
 
 .blog_img img {
     height: 350px;
     width: 100%;
     padding-bottom: 50px;
 }
+
 .in_blog_de h4 {
     color: #666;
     font-size: 32px;
@@ -1419,4 +1516,291 @@ body {
     color: #666;
 }
 
-/************* inner_blog ends **************/
+/*========================================
+               in_blog_de css ends
+ ========================================*/
+
+
+
+
+/*========================================
+               demo/navbar css start
+ ========================================*/
+
+
+.demo.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.demo.navbar a {
+    padding-right: 12px;
+    padding-left: 12px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.demo.navbar .get {
+    color: #fff;
+    background: #6681f2;
+    padding: 14px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    transition: all linear .3s;
+    line-height: 90px;
+    border: 2px solid #6681f2;
+    text-transform: capitalize;
+
+}
+.demo.navbar .get:hover{
+    background: transparent;
+    border: 2px soli #6681f2; 
+}
+
+/*========================================
+               demo/navbar css ends
+ ========================================*/
+/*========================================
+        demos_banner_part css start
+ ========================================*/
+#demos_banner_part {
+    background: url(../images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 500px;
+}
+
+#demos_banner_part .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#demos_banner_part .img {
+    position: absolute;
+    top: 200px;
+    left: -65px;
+}
+
+/*========================================
+        demos_banner_part css ends
+ ========================================*/
+/*========================================
+               unique css start
+ ========================================*/
+#unique {
+    padding: 60px 0;
+    background: #f5f5f5;
+}
+
+#unique .unique_head h2 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #2e3e50;
+    font-weight: 900;
+}
+
+#unique .unique_item {
+    position: relative;
+    height: 420px;
+    width: 370px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+#unique .unique_item img {
+    border-radius: 10px;
+}
+
+#unique .unique_item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all linear .5s;
+    border-radius: 10px;
+}
+
+#unique .unique_item:hover .overlay {
+    height: 100%;
+
+}
+
+#unique .unique_item .overlay a i {
+    height: 70px;
+    width: 70px;
+    background: #6681f2;
+    border-radius: 50%;
+    margin-top: 0;
+    line-height: 63px;
+    font-size: 20px;
+    color: #fff;
+    border: 5px solid #fff;
+    opacity: 0;
+    transition: all linear .4s;
+}
+
+#unique .unique_item:hover .overlay a i {
+    opacity: 1;
+    margin-top: 50%;
+}
+#unique .unique_item .overlay a i:hover{
+    
+    border: 5px solid #6681f2;
+    background: #fff;
+    color: #6681f2;
+}
+#unique .unique_text {
+    position: absolute;
+    top: 210px;
+    right: -20px;
+}
+
+#unique .unique_text .deg {
+    color: #ababab;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    transform: rotate(90deg);
+    font-weight: 700;
+}
+
+/*========================================
+               unique  css ends
+ ========================================*/
+/*========================================
+               tools css start
+ ========================================*/
+#tools {
+    background: #f1f1f1;
+    padding-bottom: 60px;
+}
+
+#tools .tools_items {
+    margin-top: 60px;
+    box-shadow: 0px 0px 122px -13px rgba(0, 0, 0, 0.1);
+    height: 120px;
+    width: 500px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+#tools .tools_img {
+    float: left;
+}
+
+#tools .tools_title {
+    float: left;
+    text-align: center;
+    line-height: 120px;
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #0e2f44;
+    font-weight: 700;
+}
+
+/*========================================
+               tools css ends
+ ========================================*/
+/*========================================
+               support css start
+ ========================================*/
+#support {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+#support .get_support h2 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #2e3e50;
+    font-weight: 900;
+}
+
+#support .get_support p {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0 161px;
+}
+
+#support .get_support a {
+    color: #fff;
+    background: #6681f2;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    transition: all linear .3s;
+    line-height: 90px;
+    border: 2px solid #6681f2;
+
+}
+
+#support .get_support a:hover {
+    color: #6681f2;
+    background: none;
+    border: 2px solid #6681f2;
+
+}
+
+/*========================================
+               support css ends
+ ========================================*/
+
+/*========================================
+               demo/copyright css start
+ ========================================*/
+#demo_copyright {
+    background: #242f37;
+}
+
+#demo_copyright .copyright {
+    height: 100px;
+}
+
+#demo_copyright .copyright p {
+    color: #8b969e;
+    padding-top: 10px;
+    line-height: 74px;
+}
+#demo_copyright .purchase a {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transition: all linear .3s;
+    line-height: 100px;
+}
+
+#demo_copyright .purchase a i {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#demo_copyright .purchase a:hover {
+    color: #6681f2;
+}
+
+/*========================================
+               demo/copyright css ends
+ ========================================*/
