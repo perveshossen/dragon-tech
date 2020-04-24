@@ -97,3 +97,9 @@ $(window).scroll(function () {
         $(".dote").hide();
     }
 });
+
+
+
+
+
+new WOW().init();
